@@ -50,7 +50,7 @@ To build and run the analyzer, you will need the following dependencies:
 * Python 2 >= 2.7.3 or Python 3 >= 3.3
 * SQLite >= 3.6.20
 * TBB >= 2
-* LLVM and Clang 9.0.x
+* LLVM and Clang 10.0.x
 * (Optional) APRON >= 0.9.10
 * (Optional) Pygments
 

@@ -24,7 +24,7 @@ attributes #0 = { noinline nounwind ssp uwtable "correctly-rounded-divide-sqrt-f
 !llvm.module.flags = !{!15, !16, !17, !18}
 !llvm.ident = !{!19}
 
-!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
+!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
 !1 = !DIFile(filename: "vector-1.c", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/aggressive_optimization")
 !2 = !{}
 !3 = !{!4, !11, !13}
@@ -43,7 +43,7 @@ attributes #0 = { noinline nounwind ssp uwtable "correctly-rounded-divide-sqrt-f
 !16 = !{i32 2, !"Debug Info Version", i32 3}
 !17 = !{i32 1, !"wchar_size", i32 4}
 !18 = !{i32 7, !"PIC Level", i32 2}
-!19 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!19 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
 !20 = distinct !DISubprogram(name: "main", scope: !1, file: !1, line: 5, type: !21, scopeLine: 5, spFlags: DISPFlagDefinition, unit: !0, retainedNodes: !2)
 !21 = !DISubroutineType(types: !22)
 !22 = !{!23}

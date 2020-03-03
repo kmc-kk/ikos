@@ -53,7 +53,7 @@ attributes #1 = { nounwind readnone speculatable }
 
 !0 = !DIGlobalVariableExpression(var: !1, expr: !DIExpression())
 !1 = distinct !DIGlobalVariable(name: "head", scope: !2, file: !3, line: 6, type: !6, isLocal: false, isDefinition: true)
-!2 = distinct !DICompileUnit(language: DW_LANG_C99, file: !3, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !4, globals: !5, nameTableKind: GNU)
+!2 = distinct !DICompileUnit(language: DW_LANG_C99, file: !3, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !4, globals: !5, nameTableKind: GNU)
 !3 = !DIFile(filename: "linked-list.c", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/no_optimization")
 !4 = !{}
 !5 = !{!0}
@@ -67,7 +67,7 @@ attributes #1 = { nounwind readnone speculatable }
 !13 = !{i32 2, !"Debug Info Version", i32 3}
 !14 = !{i32 1, !"wchar_size", i32 4}
 !15 = !{i32 7, !"PIC Level", i32 2}
-!16 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!16 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
 !17 = distinct !DISubprogram(name: "main", scope: !3, file: !3, line: 8, type: !18, scopeLine: 8, flags: DIFlagPrototyped, spFlags: DISPFlagDefinition, unit: !2, retainedNodes: !4)
 !18 = !DISubroutineType(types: !19)
 !19 = !{!9, !9, !20}

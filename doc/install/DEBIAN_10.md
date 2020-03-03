@@ -13,7 +13,7 @@ $ sudo apt-get upgrade
 Now, you will need to add the LLVM repository to your apt `sources.list`:
 
 ```
-$ echo "deb http://apt.llvm.org/buster/ llvm-toolchain-buster-9 main" | sudo tee -a /etc/apt/sources.list
+$ echo "deb http://apt.llvm.org/buster/ llvm-toolchain-buster-10 main" | sudo tee -a /etc/apt/sources.list
 ```
 
 You also need to trust the LLVM repository key:
@@ -28,7 +28,7 @@ Then, run the following commands:
 $ sudo apt-get update
 $ sudo apt-get install gcc g++ cmake libgmp-dev libboost-dev libboost-filesystem-dev \
     libboost-thread-dev libboost-test-dev python python-pygments libsqlite3-dev libtbb-dev \
-    libz-dev libedit-dev llvm-9 llvm-9-dev llvm-9-tools clang-9
+    libz-dev libedit-dev llvm-10 llvm-10-dev llvm-10-tools clang-10
 ```
 
 When running cmake to build IKOS, you will need to define `LLVM_CONFIG_EXECUTABLE`:
@@ -36,7 +36,7 @@ When running cmake to build IKOS, you will need to define `LLVM_CONFIG_EXECUTABL
 ```
 $ cmake \
     -DCMAKE_INSTALL_PREFIX="/path/to/ikos-install-directory" \
-    -DLLVM_CONFIG_EXECUTABLE="/usr/lib/llvm-9/bin/llvm-config" \
+    -DLLVM_CONFIG_EXECUTABLE="/usr/lib/llvm-10/bin/llvm-config" \
     ..
 ```
 

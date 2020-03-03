@@ -107,7 +107,7 @@ attributes #2 = { "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-
 
 !0 = !DIGlobalVariableExpression(var: !1, expr: !DIExpression())
 !1 = distinct !DIGlobalVariable(name: "ptr_fun", scope: !2, file: !3, line: 7, type: !26, isLocal: false, isDefinition: true)
-!2 = distinct !DICompileUnit(language: DW_LANG_C_plus_plus, file: !3, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !4, globals: !5, nameTableKind: GNU)
+!2 = distinct !DICompileUnit(language: DW_LANG_C_plus_plus, file: !3, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !4, globals: !5, nameTableKind: GNU)
 !3 = !DIFile(filename: "pointer-arithmetic.cpp", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/basic_optimization")
 !4 = !{}
 !5 = !{!0, !6, !14, !23}
@@ -137,7 +137,7 @@ attributes #2 = { "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-
 !29 = !{i32 2, !"Debug Info Version", i32 3}
 !30 = !{i32 1, !"wchar_size", i32 4}
 !31 = !{i32 7, !"PIC Level", i32 2}
-!32 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!32 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
 !33 = distinct !DISubprogram(name: "f", linkageName: "_Z1fv", scope: !3, file: !3, line: 3, type: !34, scopeLine: 3, flags: DIFlagPrototyped, spFlags: DISPFlagDefinition, unit: !2, retainedNodes: !4)
 !34 = !DISubroutineType(types: !35)
 !35 = !{!20}

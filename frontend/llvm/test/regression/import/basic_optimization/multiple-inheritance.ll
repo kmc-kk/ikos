@@ -37,7 +37,7 @@ attributes #0 = { noinline norecurse nounwind ssp uwtable "correctly-rounded-div
 
 !0 = !DIGlobalVariableExpression(var: !1, expr: !DIExpression())
 !1 = distinct !DIGlobalVariable(name: "c", scope: !2, file: !3, line: 21, type: !6, isLocal: false, isDefinition: true)
-!2 = distinct !DICompileUnit(language: DW_LANG_C_plus_plus, file: !3, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !4, globals: !5, nameTableKind: GNU)
+!2 = distinct !DICompileUnit(language: DW_LANG_C_plus_plus, file: !3, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !4, globals: !5, nameTableKind: GNU)
 !3 = !DIFile(filename: "multiple-inheritance.cpp", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/basic_optimization")
 !4 = !{}
 !5 = !{!0}
@@ -69,7 +69,7 @@ attributes #0 = { noinline norecurse nounwind ssp uwtable "correctly-rounded-div
 !31 = !{i32 2, !"Debug Info Version", i32 3}
 !32 = !{i32 1, !"wchar_size", i32 4}
 !33 = !{i32 7, !"PIC Level", i32 2}
-!34 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!34 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
 !35 = distinct !DISubprogram(name: "main", scope: !3, file: !3, line: 23, type: !36, scopeLine: 23, flags: DIFlagPrototyped, spFlags: DISPFlagDefinition, unit: !2, retainedNodes: !4)
 !36 = !DISubroutineType(types: !37)
 !37 = !{!12}

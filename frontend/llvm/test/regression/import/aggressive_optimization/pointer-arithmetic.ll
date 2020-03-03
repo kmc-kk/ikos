@@ -39,7 +39,7 @@ attributes #1 = { "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-
 !llvm.module.flags = !{!28, !29, !30, !31}
 !llvm.ident = !{!32}
 
-!0 = distinct !DICompileUnit(language: DW_LANG_C_plus_plus, file: !1, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
+!0 = distinct !DICompileUnit(language: DW_LANG_C_plus_plus, file: !1, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
 !1 = !DIFile(filename: "pointer-arithmetic.cpp", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/aggressive_optimization")
 !2 = !{}
 !3 = !{!4, !8, !16, !25}
@@ -71,7 +71,7 @@ attributes #1 = { "correctly-rounded-divide-sqrt-fp-math"="false" "disable-tail-
 !29 = !{i32 2, !"Debug Info Version", i32 3}
 !30 = !{i32 1, !"wchar_size", i32 4}
 !31 = !{i32 7, !"PIC Level", i32 2}
-!32 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!32 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
 !33 = distinct !DISubprogram(name: "main", scope: !1, file: !1, line: 21, type: !34, scopeLine: 21, flags: DIFlagPrototyped, spFlags: DISPFlagDefinition, unit: !0, retainedNodes: !2)
 !34 = !DISubroutineType(types: !35)
 !35 = !{!22}

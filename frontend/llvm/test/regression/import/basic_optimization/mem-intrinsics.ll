@@ -71,7 +71,7 @@ attributes #2 = { nounwind readnone speculatable }
 !llvm.module.flags = !{!6, !7, !8, !9}
 !llvm.ident = !{!10}
 
-!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, retainedTypes: !3, nameTableKind: GNU)
+!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, retainedTypes: !3, nameTableKind: GNU)
 !1 = !DIFile(filename: "mem-intrinsics.c", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/basic_optimization")
 !2 = !{}
 !3 = !{!4}
@@ -81,7 +81,7 @@ attributes #2 = { nounwind readnone speculatable }
 !7 = !{i32 2, !"Debug Info Version", i32 3}
 !8 = !{i32 1, !"wchar_size", i32 4}
 !9 = !{i32 7, !"PIC Level", i32 2}
-!10 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!10 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
 !11 = distinct !DISubprogram(name: "cst", scope: !1, file: !1, line: 3, type: !12, scopeLine: 3, spFlags: DISPFlagDefinition, unit: !0, retainedNodes: !2)
 !12 = !DISubroutineType(types: !13)
 !13 = !{!5}

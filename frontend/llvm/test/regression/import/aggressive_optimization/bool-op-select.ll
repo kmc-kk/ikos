@@ -24,7 +24,7 @@ attributes #0 = { noinline norecurse nounwind ssp uwtable "correctly-rounded-div
 !llvm.module.flags = !{!7, !8, !9, !10}
 !llvm.ident = !{!11}
 
-!0 = distinct !DICompileUnit(language: DW_LANG_C_plus_plus, file: !1, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
+!0 = distinct !DICompileUnit(language: DW_LANG_C_plus_plus, file: !1, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
 !1 = !DIFile(filename: "bool-op-select.cpp", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/aggressive_optimization")
 !2 = !{}
 !3 = !{!4}
@@ -35,7 +35,7 @@ attributes #0 = { noinline norecurse nounwind ssp uwtable "correctly-rounded-div
 !8 = !{i32 2, !"Debug Info Version", i32 3}
 !9 = !{i32 1, !"wchar_size", i32 4}
 !10 = !{i32 7, !"PIC Level", i32 2}
-!11 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!11 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
 !12 = distinct !DISubprogram(name: "main", scope: !1, file: !1, line: 10, type: !13, scopeLine: 10, flags: DIFlagPrototyped, spFlags: DISPFlagDefinition, unit: !0, retainedNodes: !2)
 !13 = !DISubroutineType(types: !14)
 !14 = !{!6}

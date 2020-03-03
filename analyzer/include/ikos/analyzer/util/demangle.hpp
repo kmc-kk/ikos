@@ -53,6 +53,8 @@
 #include <boost/core/demangle.hpp>
 #endif
 
+#include <llvm/ADT/StringRef.h>
+
 #include <ikos/analyzer/support/string_ref.hpp>
 
 namespace ikos {
@@ -93,6 +95,12 @@ inline std::string demangle(const std::string& name) {
 inline std::string demangle(StringRef name) {
   // boost::core::demangle requires a null-terminated string
   return demangle(name.to_string());
+}
+
+/// \brief Return the demangled symbol name, or name if it is not mangled
+inline std::string demangle(llvm::StringRef name) {
+  // boost::core::demangle requires a null-terminated string
+  return demangle(name.str());
 }
 
 } // end namespace analyzer

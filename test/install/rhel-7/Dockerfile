@@ -15,8 +15,8 @@ ARG rhel_password
 # python 2.7.5
 # sqlite 3.7.17
 # tbb 6103
-# llvm 9.0.0
-# clang 9.0.0
+# llvm 10.0.0
+# clang 10.0.0
 # gcc 9.2.0
 
 # Subscribe

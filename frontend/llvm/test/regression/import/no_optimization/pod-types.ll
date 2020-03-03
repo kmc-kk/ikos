@@ -133,7 +133,7 @@ attributes #2 = { argmemonly nounwind }
 
 !0 = !DIGlobalVariableExpression(var: !1, expr: !DIExpression())
 !1 = distinct !DIGlobalVariable(name: "i", scope: !2, file: !3, line: 1, type: !29, isLocal: false, isDefinition: true)
-!2 = distinct !DICompileUnit(language: DW_LANG_C99, file: !3, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !4, globals: !5, nameTableKind: GNU)
+!2 = distinct !DICompileUnit(language: DW_LANG_C99, file: !3, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !4, globals: !5, nameTableKind: GNU)
 !3 = !DIFile(filename: "pod-types.c", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/no_optimization")
 !4 = !{}
 !5 = !{!0, !6, !9, !12, !15, !19, !22}
@@ -165,7 +165,7 @@ attributes #2 = { argmemonly nounwind }
 !31 = !{i32 2, !"Debug Info Version", i32 3}
 !32 = !{i32 1, !"wchar_size", i32 4}
 !33 = !{i32 7, !"PIC Level", i32 2}
-!34 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!34 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
 !35 = distinct !DISubprogram(name: "fun", scope: !3, file: !3, line: 15, type: !36, scopeLine: 15, spFlags: DISPFlagDefinition, unit: !2, retainedNodes: !4)
 !36 = !DISubroutineType(types: !37)
 !37 = !{null}

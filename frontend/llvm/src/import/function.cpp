@@ -1535,7 +1535,8 @@ ar::IntegerConstant* FunctionImporter::translate_indexes(
     } else if (auto seq_type =
                    llvm::dyn_cast< llvm::SequentialType >(indexed_type)) {
       ar::ZNumber element_size(
-          this->_llvm_data_layout.getTypeAllocSize(seq_type->getElementType()));
+          this->_llvm_data_layout.getTypeAllocSize(seq_type->getElementType())
+              .getFixedSize());
       offset += element_size * idx;
     } else {
       throw ImportError("unsupported operand to llvm extractvalue");
@@ -1570,8 +1571,10 @@ void FunctionImporter::translate_extractelement(
     throw ImportError("unsupported operand to llvm extractelement");
   }
   auto size_type = ar::IntegerType::size_type(this->_bundle);
-  ar::ZNumber element_size(this->_llvm_data_layout.getTypeAllocSize(
-      inst->getVectorOperandType()->getElementType()));
+  ar::ZNumber element_size(
+      this->_llvm_data_layout
+          .getTypeAllocSize(inst->getVectorOperandType()->getElementType())
+          .getFixedSize());
   ar::ZNumber offset_value = index->getZExtValue() * element_size;
   auto offset = ar::IntegerConstant::get(this->_context,
                                          size_type,
@@ -1602,8 +1605,10 @@ void FunctionImporter::translate_insertelement(
     throw ImportError("unsupported operand to llvm insertelement");
   }
   auto size_type = ar::IntegerType::size_type(this->_bundle);
-  ar::ZNumber element_size(this->_llvm_data_layout.getTypeAllocSize(
-      inst->getType()->getElementType()));
+  ar::ZNumber element_size(
+      this->_llvm_data_layout
+          .getTypeAllocSize(inst->getType()->getElementType())
+          .getFixedSize());
   ar::ZNumber offset_value = index->getZExtValue() * element_size;
   auto offset = ar::IntegerConstant::get(this->_context,
                                          size_type,

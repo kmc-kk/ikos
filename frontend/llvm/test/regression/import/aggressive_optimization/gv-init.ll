@@ -87,7 +87,7 @@ attributes #1 = { nounwind readnone speculatable }
 !llvm.module.flags = !{!19, !20, !21, !22}
 !llvm.ident = !{!23}
 
-!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
+!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
 !1 = !DIFile(filename: "gv-init.c", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/aggressive_optimization")
 !2 = !{}
 !3 = !{!4, !10, !12, !17}
@@ -110,7 +110,7 @@ attributes #1 = { nounwind readnone speculatable }
 !20 = !{i32 2, !"Debug Info Version", i32 3}
 !21 = !{i32 1, !"wchar_size", i32 4}
 !22 = !{i32 7, !"PIC Level", i32 2}
-!23 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!23 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
 !24 = distinct !DISubprogram(name: "main", scope: !1, file: !1, line: 7, type: !25, scopeLine: 7, flags: DIFlagPrototyped, spFlags: DISPFlagDefinition, unit: !0, retainedNodes: !2)
 !25 = !DISubroutineType(types: !26)
 !26 = !{!7, !7, !27}

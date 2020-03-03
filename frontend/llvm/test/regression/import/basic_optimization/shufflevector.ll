@@ -48,7 +48,7 @@ attributes #2 = { nounwind readnone speculatable }
 !llvm.module.flags = !{!11, !12, !13, !14}
 !llvm.ident = !{!15}
 
-!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, retainedTypes: !3, nameTableKind: GNU)
+!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, retainedTypes: !3, nameTableKind: GNU)
 !1 = !DIFile(filename: "shufflevector.c", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/basic_optimization")
 !2 = !{}
 !3 = !{!4, !10}
@@ -63,7 +63,7 @@ attributes #2 = { nounwind readnone speculatable }
 !12 = !{i32 2, !"Debug Info Version", i32 3}
 !13 = !{i32 1, !"wchar_size", i32 4}
 !14 = !{i32 7, !"PIC Level", i32 2}
-!15 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!15 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
 !16 = distinct !DISubprogram(name: "main", scope: !1, file: !1, line: 5, type: !17, scopeLine: 5, flags: DIFlagPrototyped, spFlags: DISPFlagDefinition, unit: !0, retainedNodes: !2)
 !17 = !DISubroutineType(types: !18)
 !18 = !{!19, !19, !20}

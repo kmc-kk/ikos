@@ -38,7 +38,7 @@ attributes #1 = { nounwind readnone speculatable }
 !llvm.module.flags = !{!30, !31, !32, !33}
 !llvm.ident = !{!34}
 
-!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
+!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
 !1 = !DIFile(filename: "pod-types.c", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/aggressive_optimization")
 !2 = !{}
 !3 = !{!4, !7, !10, !13, !16, !20, !23}
@@ -72,7 +72,7 @@ attributes #1 = { nounwind readnone speculatable }
 !31 = !{i32 2, !"Debug Info Version", i32 3}
 !32 = !{i32 1, !"wchar_size", i32 4}
 !33 = !{i32 7, !"PIC Level", i32 2}
-!34 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!34 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
 !35 = distinct !DISubprogram(name: "main", scope: !1, file: !1, line: 17, type: !36, scopeLine: 17, flags: DIFlagPrototyped, spFlags: DISPFlagDefinition, unit: !0, retainedNodes: !2)
 !36 = !DISubroutineType(types: !37)
 !37 = !{!19, !19, !38}

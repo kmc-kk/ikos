@@ -41,7 +41,7 @@
 # UNILATERAL TERMINATION OF THIS AGREEMENT.
 #
 ################################################################################
-# 
+#
 # This script assumes the operating system provides:
 #   bash, basename, dirname, mkdir, touch, sed, date
 #
@@ -98,8 +98,8 @@ tbb_install_version="11009"
 python2_required_version="2.7.3"
 python3_required_version="3.3"
 python_install_version="2.7.16"
-llvm_required_version="9"
-llvm_install_version="9.0.0"
+llvm_required_version="10"
+llvm_install_version="10.0.0"
 
 # Default parameters
 install_dir=""
@@ -1725,7 +1725,7 @@ if (( ! found_ppl )); then
 --- src/Determinate_inlines.hh
 +++ src/Determinate_inlines.hh
 @@ -289,8 +289,8 @@ operator()(Determinate& x, const Determinate& y) const {
- 
+
  template <typename PSET>
  template <typename Binary_Operator_Assign>
 -inline
@@ -1738,7 +1738,7 @@ if (( ! found_ppl )); then
 --- src/OR_Matrix_inlines.hh
 +++ src/OR_Matrix_inlines.hh
 @@ -97,7 +97,7 @@ OR_Matrix<T>::Pseudo_Row<U>::Pseudo_Row(const Pseudo_Row<V>& y)
- 
+
  template <typename T>
  template <typename U>
 -inline OR_Matrix<T>::Pseudo_Row<U>&

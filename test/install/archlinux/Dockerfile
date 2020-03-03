@@ -13,8 +13,8 @@ ARG build_type=Release
 # python 3.8
 # sqlite 3.30.1
 # tbb 11009
-# llvm 9.0.0
-# clang 9.0.0
+# llvm 10.0.0
+# clang 10.0.0
 # gcc 9.2.0
 
 # Upgrade

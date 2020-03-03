@@ -12,7 +12,7 @@ target triple = "x86_64-apple-macosx10.14.0"
 !llvm.module.flags = !{!18, !19, !20, !21}
 !llvm.ident = !{!22}
 
-!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 9.0.0 (tags/RELEASE_900/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
+!0 = distinct !DICompileUnit(language: DW_LANG_C99, file: !1, producer: "clang version 10.0.0 (tags/RELEASE_1000/final)", isOptimized: false, runtimeVersion: 0, emissionKind: FullDebug, enums: !2, globals: !3, nameTableKind: GNU)
 !1 = !DIFile(filename: "empty-array-1.c", directory: "/Users/marthaud/ikos/ikos-git/frontend/llvm/test/regression/import/aggressive_optimization")
 !2 = !{}
 !3 = !{!4}
@@ -34,4 +34,4 @@ target triple = "x86_64-apple-macosx10.14.0"
 !19 = !{i32 2, !"Debug Info Version", i32 3}
 !20 = !{i32 1, !"wchar_size", i32 4}
 !21 = !{i32 7, !"PIC Level", i32 2}
-!22 = !{!"clang version 9.0.0 (tags/RELEASE_900/final)"}
+!22 = !{!"clang version 10.0.0 (tags/RELEASE_1000/final)"}
